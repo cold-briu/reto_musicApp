@@ -1,0 +1,40 @@
+.LandingPage__container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+    background-image: url('https://jmd.im/wp-content/uploads/2017/06/blackii_thumbnail.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto auto;
+    color: white;
+}
+
+.LandingPage__header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.LandingPage__header-text{
+    max-width: 90%;
+
+}
+
+.LandingPage__header-text h1{
+    margin-bottom: 0;
+    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.LandingPage__header-text p{
+    margin: 0 0 5% 0;
+
+}

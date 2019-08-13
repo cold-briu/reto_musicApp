@@ -1,0 +1,36 @@
+
+  #searchform{
+    display:inline;
+    border-radius: 2em;
+    border:0.1em solid rgba(218,208,190,1);
+    padding: 1vh .5vh;
+    position: relative;
+    top: -1vh;
+
+  }
+
+  #s{
+    transition:all 0.2s ease-out;
+    width:1px;
+    border-radius:0;
+    box-shadow:none;
+    outline: none;
+    padding:0;
+    margin:0;
+    border:0;
+    background-color: transparent;
+    opacity:0;
+  }
+  #s:focus{
+    width:8em;
+    opacity:1;
+  }
+  #labela{
+    display:inline-block;
+    text-shadow:0 0 0.1em rgba(60,60,60,0.3);
+
+    position: relative;
+    top: 1vh;
+
+  }
+  
